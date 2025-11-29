@@ -51,4 +51,4 @@ This is a professional portfolio developed with modern technologies to showcase 
    `bash npm run dev # or yarn dev `
 
 6. Access the application in your browser:
-   `http://localhost:3000/`
+   `bash http://localhost:3000/ `
