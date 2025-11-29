@@ -7,7 +7,6 @@ import {
   SiPython,
   SiShopify,
   SiTypescript,
-  SiReact,
 } from "react-icons/si";
 
 import SafeImage from "@/components/Other/SafeImage/SafeImage";
@@ -23,7 +22,7 @@ const languageIcons: Record<
 > = {
   javascript: { icon: SiJavascript, color: "#F7DF1E" },
   typescript: { icon: SiTypescript, color: "#3178C6" },
-  react: { icon: SiReact, color: "#3178C6" },
+  // react: { icon: SiReact, color: "#3178C6" },
   python: { icon: SiPython, color: "#3776AB" },
   shopify: { icon: SiShopify, color: "#95BF47" },
 };
