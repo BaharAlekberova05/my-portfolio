@@ -7,7 +7,7 @@ export const workData = [
       "Created a modern and responsive website for Solution Appliances Repair, designed to attract customers and make service booking simple and intuitive. Emphasizes usability, clear navigation, and professional design.",
     link: "https://www.solutionappliancesrepair.com/",
     github: "/#",
-    language: "react",
+    language: "javascript",
   },
   {
     image: "/projects/dreamora.png",
@@ -27,7 +27,7 @@ export const workData = [
       "Car Storm is a modern, responsive e-commerce website where users can browse, purchase, and wishlist cars. Admins can manage products from the dashboard, including adding, editing, and deleting cars. This application offers multiple features such as dark and light modes, multi-language support, product filters, authentication, and more.",
     link: "https://car-storm.vercel.app/",
     github: "https://github.com/BaharAlekberova05/Car-Storm-Website.git",
-    language: "react",
+    language: "javascript",
   },
   {
     image: "/projects/aub.png",

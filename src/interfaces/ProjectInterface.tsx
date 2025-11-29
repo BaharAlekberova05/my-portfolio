@@ -7,7 +7,7 @@ export interface ProjectCardInterface {
     description: string;
     link: string;
     github: string;
-    language?: "javascript" | "typescript" | "react" | "python" | "shopify";
+    language?: "javascript" | "typescript" | "python" | "shopify";
     tags?: string[];
   };
   /**
