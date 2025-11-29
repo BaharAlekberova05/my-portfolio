@@ -59,4 +59,3 @@ To display your GitHub projects and contribution charts, configure the following
    GITHUB_TOKEN=your_token_here
    NEXT_PUBLIC_GITHUB_USERNAME=your_github_username
    NEXT_PUBLIC_PORTFOLIO_TAG=portfolio-project
-   ```
