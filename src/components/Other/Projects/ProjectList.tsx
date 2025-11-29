@@ -1,6 +1,4 @@
 "use client";
-
-import { getAllProjects, getCombinedProjects } from "@/data/github-projects";
 import { ProjectCardInterface } from "@/interfaces/ProjectInterface";
 import { useEffect, useState } from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
@@ -17,31 +15,31 @@ export default function ProjectList({
   );
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const loadProjects = async () => {
-      try {
-        // Usar os valores do .env ou valores padrão
-        const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || "BaharAlekberova05";
-        const portfolioTag =
-          process.env.NEXT_PUBLIC_PORTFOLIO_TAG || "portfolio-project";
+  // useEffect(() => {
+  //   const loadProjects = async () => {
+  //     try {
+  //       // Usar os valores do .env ou valores padrão
+  //       const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || "BaharAlekberova05";
+  //       const portfolioTag =
+  //         process.env.NEXT_PUBLIC_PORTFOLIO_TAG || "portfolio-project";
 
-        // Buscar projetos combinados
-        const combinedProjects = await getCombinedProjects(
-          username,
-          portfolioTag
-        );
-        setProjects(combinedProjects);
-      } catch (error) {
-        console.error("Erro ao carregar projetos:", error);
-        // Fallback para os projetos existentes
-        setProjects(getAllProjects());
-      } finally {
-        setIsLoading(false);
-      }
-    };
+  //       // Buscar projetos combinados
+  //       const combinedProjects = await getCombinedProjects(
+  //         username,
+  //         portfolioTag
+  //       );
+  //       setProjects(combinedProjects);
+  //     } catch (error) {
+  //       console.error("Erro ao carregar projetos:", error);
+  //       // Fallback para os projetos existentes
+  //       setProjects(getAllProjects());
+  //     } finally {
+  //       setIsLoading(false);
+  //     }
+  //   };
 
-    loadProjects();
-  }, []);
+  //   loadProjects();
+  // }, []);
 
   if (isLoading) {
     return <div className="text-center py-10">Carregando projetos...</div>;
