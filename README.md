@@ -1,12 +1,11 @@
-<h1 align="center">
-   Bahar Alekberova
-</h1>
+<h1 align="center">Bahar Alekberova</h1>
 
+![Performance](/public/performance.webp)
 ![Banner](/public/portfolio.png)
 
 ---
 
-# Documentation in English
+# Documentation
 
 This is a professional portfolio developed with modern technologies to showcase my skills, projects, and experience as a full stack developer. The website features an interactive interface with fluid animations, dynamic code display, and responsive design.
 
@@ -35,27 +34,21 @@ This is a professional portfolio developed with modern technologies to showcase 
 - **/projects**: Portfolio of completed projects
 - **/contact**: Contact form and connection information
 
-## Setup and Configuration
+## Installation To run this project locally, follow these instructions:
 
-### Configuring GitHub Integration
+1. Clone the repository:
+   `bash git clone https://github.com/BaharAlekberova02/my-portfolio.git `
 
-To display your GitHub projects and contribution charts, configure the following environment variables:
+2. Navigate to the project directory:
+   `bash cd my-portfolio `
 
-1. **Create a GitHub Token (required to avoid rate limiting)**:
+3. Install dependencies: `bash npm install # or yarn install`
 
-   - Go to [GitHub Settings > Tokens](https://github.com/settings/tokens)
-   - Click "Generate new token" → "Generate new token (classic)"
-   - Give it a name like "Portfolio Projects API"
-   - Select only these permissions: `public_repo` and `read:user`
-   - Click "Generate token" and copy the generated value
+4. Configure environment variables:
+   `bash cp .env.example .env.local # Edit .env.local file with your configurations `
 
-2. **Configure environment variables**:
+5. Start the development server:
+   `bash npm run dev # or yarn dev `
 
-   ```bash
-   # Copy the example file
-   cp .env.example .env.local
-
-   # Edit .env.local with your information:
-   GITHUB_TOKEN=your_token_here
-   NEXT_PUBLIC_GITHUB_USERNAME=your_github_username
-   NEXT_PUBLIC_PORTFOLIO_TAG=portfolio-project
+6. Access the application in your browser:
+   `http://localhost:3000/`
