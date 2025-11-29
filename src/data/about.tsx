@@ -51,7 +51,7 @@ export const qualificationData = [
       {
         company: "Webluna Software",
         role: "Front-end Developer",
-        years: "July 2024 - present",
+        years: "July 2025 - present",
         location: "Baku, Azerbaijan",
         description: [
           "Collaborated with the team on several real-world projects during working at Webluna Software.",
