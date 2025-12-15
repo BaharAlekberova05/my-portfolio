@@ -2,10 +2,20 @@ export const workData = [
   {
     image: "/projects/sar.png",
     category: "Front end",
-    name: "Solution Appliances Repair ",
+    name: "Solution Appliances Repair",
     description:
       "Created a modern and responsive website for Solution Appliances Repair, designed to attract customers and make service booking simple and intuitive. Emphasizes usability, clear navigation, and professional design.",
     link: "https://www.solutionappliancesrepair.com/",
+    github: "/#",
+    language: "javascript" as "javascript",
+  },
+  {
+    image: "/projects/sabat.png",
+    category: "Front end",
+    name: "Sabat Publishing House",
+    description:
+      "Created a modern and responsive website for Sabat, designed to attract customers and make buying simple and intuitive. Emphasizes usability, clear navigation, and professional design.",
+    link: "https://sabat.az/",
     github: "/#",
     language: "javascript" as "javascript",
   },
@@ -30,12 +40,22 @@ export const workData = [
     language: "javascript" as "javascript",
   },
   {
+    image: "/projects/starpharm.png",
+    category: "Front end",
+    name: "Starpharm",
+    description:
+      "Starpharm a modern, responsive e-commerce website where users can browse, purchase, and wishlist meds. Admins can manage products from the dashboard, including adding, editing, and deleting meds. This application offers multiple features such as multi-language support, product filters, authentication, and more.",
+    link: "https://demo.starpharm.az/",
+    github: "/#",
+    language: "javascript" as "javascript",
+  },
+  {
     image: "/projects/aub.png",
     category: "Front end",
     name: "AUB",
     description:
       "Created aub.az — a caring and informative web portal for a children’s shelter, designed to raise awareness, support and facilitate communication with donors or volunteers. Emphasizes clarity, accessibility and social impact through thoughtful design.",
-    link: "https://domain.aub.az/",
+    link: "https://aub.az/",
     github: "/#",
     language: "typescript" as "typescript",
   },
