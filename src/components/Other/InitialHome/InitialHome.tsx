@@ -389,7 +389,7 @@ const InitialHome = () => {
                 containerStyles="w-[510px] h-[520px] relative flex items-center"
                 containerStylesImage="w-full h-auto"
                 // imgSrc="/people/adam-face.png"
-                imgSrc="/people/bahar.png"
+                imgSrc="/people/bahar-nobg.png"
               />
             </FloatingElement>
 
