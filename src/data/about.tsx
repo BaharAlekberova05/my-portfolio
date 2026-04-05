@@ -49,9 +49,46 @@ export const qualificationData = [
     title: "experience",
     data: [
       {
+        company: "Crocusoft MMC",
+        role: "Front-end Developer",
+        years: "February 2026 - Present",
+        location: "Baku, Azerbaijan",
+        description: [
+          "Developing the frontend for 'The Labour Centre of the Organisation of Islamic Cooperation (OIC Labour Centre)' and its comprehensive administrative dashboard.",
+          "Contributing to the development and implementation of the Human Resources (HR) management system for the Ministry of Justice of the Republic of Azerbaijan.",
+          "Building complex, data-driven dashboard interfaces and management tools using React, Next.js, and modern UI libraries.",
+          "Collaborating closely with cross-functional teams, including Backend, UX/UI, and QA, to deliver high-quality software solutions.",
+          "Ensuring code scalability and maintainability by adhering to clean code practices and established team architectural standards.",
+          "Participating in agile task planning and technical problem-solving to optimize project workflows and performance.",
+        ],
+
+        technologies: [
+          "HTML5",
+          "CSS3",
+          "SCSS",
+          "Material UI",
+          "Ant Design",
+          "Shadcn UI",
+          "Bootstrap",
+          "TailwindCSS",
+          "JavaScript (ES7+)",
+          "NextJS 14",
+          "React",
+          "Tanstack",
+          "Redux / Redux Toolkit",
+          "Zustand",
+          "Zod",
+          "Formik / Yup / React Hook Form",
+          "Context API",
+          "TypeScript",
+          "Figma",
+          "Git / Version Control",
+        ],
+      },
+      {
         company: "Webluna Software",
         role: "Front-end Developer",
-        years: "July 2025 - present",
+        years: "July 2025 - December 2025",
         location: "Baku, Azerbaijan",
         description: [
           "Collaborated with the team on several real-world projects during working at Webluna Software.",
@@ -119,18 +156,9 @@ export const skillsData = [
       {
         icons: ["JavaScript", "TypeScript", "React", "NextJs"],
       },
-      // {
-      //   icons: ["NodeJS", "NestJS", "Express", "PrismaJs"],
-      // },
       {
         icons: ["Jest", "Django", "Git", "Figma"],
       },
-      // {
-      //   icons: ["MongoDB", "PostgreSQL"],
-      // },
-      // {
-      //   icons: ["Docker", "SQLite"],
-      // },
       {
         icons: ["Sass", "Vtex"],
       },
@@ -146,14 +174,8 @@ export const skillsData = [
         imgPath: "MacOS",
       },
       {
-        imgPath: "Linux",
-      },
-      {
         imgPath: "Vscode",
       },
-      // {
-      //   imgPath: "Insomnia",
-      // },
       {
         imgPath: "Jira",
       },

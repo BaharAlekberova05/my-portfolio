@@ -13,25 +13,29 @@ import {
 import { highlightTechArray } from "./syntax-highlighter";
 
 const techStackData = [
+  { name: "JavaScript", category: "frontend", featured: true },
+  { name: "React", category: "frontend", featured: true },
+  { name: "Next.js", category: "frontend", featured: true },
+  { name: "TypeScript", category: "language", featured: true },
   { name: "HTML5", category: "frontend", featured: true },
   { name: "CSS3", category: "frontend", featured: true },
   { name: "Sass", category: "frontend", featured: true },
   { name: "Bootstrap", category: "frontend", featured: true },
   { name: "Tailwind", category: "frontend", featured: true },
   { name: "Material UI", category: "frontend", featured: true },
+  { name: "ShadCN UI", category: "frontend", featured: true },
+  { name: "Ant Design", category: "frontend", featured: true },
+  { name: "Tanstack", category: "frontend", featured: true },
+  { name: "React Hook Form", category: "frontend", featured: true },
   { name: "Formik/Yup", category: "frontend", featured: true },
-  { name: "JavaScript", category: "frontend", featured: true },
-  { name: "React", category: "frontend", featured: true },
+  { name: "Zod", category: "frontend", featured: true },
   { name: "Redux/Redux Toolkit", category: "frontend", featured: true },
   { name: "Context API", category: "frontend", featured: true },
-  { name: "Next.js", category: "frontend", featured: true },
-  { name: "TypeScript", category: "language", featured: true },
+  { name: "Zustand", category: "frontend", featured: true },
   { name: "Git", category: "tools", featured: false },
   { name: "GitHub", category: "tools", featured: false },
   { name: "GitLab", category: "tools", featured: false },
   { name: "Figma", category: "design", featured: false },
-  { name: "Linux", category: "os", featured: false },
-  { name: "Figma", category: "tools", featured: false },
   { name: "Vercel", category: "hosting", featured: false },
   { name: "Vite", category: "frontend", featured: false },
 ];
@@ -312,7 +316,7 @@ const InitialHome = () => {
               </Link>
               <Link
                 target="_blank"
-                href="https://drive.google.com/file/d/1xW6WSTPgpRLw-xY05G1aL-y1TVHNkmtA/view?usp=sharing"
+                href="https://drive.google.com/file/d/1GPDtcSHHvZmoQ_X3j-bjHjeZPpHcoJzv/view?usp=sharing"
                 aria-label="cv"
               >
                 <Button variant="secondary" className="gap-x-2 group">
