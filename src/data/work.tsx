@@ -1,5 +1,35 @@
 export const workData = [
   {
+    image: "/projects/ufc.png",
+    category: "Front end",
+    name: "UFC Engineering",
+    description:
+      "Created a modern and responsive website for UFC Engineering, designed to attract customers. Emphasizes usability, clear navigation, and professional design.",
+    link: "https://ufcengineering.com/",
+    github: "/#",
+    language: "javascript" as "javascript",
+  },
+  {
+    image: "/projects/qstp.png",
+    category: "Front end",
+    name: "QSTP",
+    description:
+      "Created a modern and responsive website for QSTP, designed to attract customers. Emphasizes usability, clear navigation, and professional design.",
+    link: "https://qstp.az/",
+    github: "/#",
+    language: "javascript" as "javascript",
+  },
+  {
+    image: "/projects/careers-bir.png",
+    category: "Front end",
+    name: "Bir Careers Ecosystem",
+    description:
+      "Created a modern and responsive website for Bir Careers Ecosystem, designed to attract customers and make job seeking simple and intuitive. Emphasizes usability, clear navigation, and professional design.",
+    link: "https://careers.bir.az/",
+    github: "/#",
+    language: "javascript" as "javascript",
+  },
+  {
     image: "/projects/sar.png",
     category: "Front end",
     name: "Solution Appliances Repair",
@@ -45,7 +75,7 @@ export const workData = [
     name: "Starpharm",
     description:
       "Starpharm a modern, responsive e-commerce website where users can browse, purchase, and wishlist meds. Admins can manage products from the dashboard, including adding, editing, and deleting meds. This application offers multiple features such as multi-language support, product filters, authentication, and more.",
-    link: "https://demo.starpharm.az/",
+    link: "https://starpharm.az/",
     github: "/#",
     language: "javascript" as "javascript",
   },
